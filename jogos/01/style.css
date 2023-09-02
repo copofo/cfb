@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Cor de fundo do jogo */
+}
+
+#player {
+    width: 50px;
+    height: 50px;
+    background-color: #FF0000; /* Cor do jogador */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.platform {
+    width: 200px;
+    height: 20px;
+    background-color: #008000; /* Cor da plataforma */
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
